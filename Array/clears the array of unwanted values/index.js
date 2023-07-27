@@ -19,3 +19,10 @@ const compact = (array) => {
   return rez
 }
 console.log(compact(data))
+
+// Solution method
+//  const compactV2 = (array) => {
+//  const x = [0, false,undefined, '',null]
+//  const rez = array.filter((item)=>!x.includes(item))
+//  return rez
+// }
